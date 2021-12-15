@@ -1,0 +1,41 @@
+/* for using delete icon i have install font awesome by this
+npm i --save @fortawesome/fontawesome-svg-core
+  npm install --save @fortawesome/free-solid-svg-icons
+  npm install --save @fortawesome/react-fontawesome
+
+*/
+
+.list {
+    color: white;
+    width: 300px;
+    background-color: violet;
+    margin: 20px auto;
+    height: 50px;
+    border-radius: 5px;
+   
+}
+.list p {
+    padding: 10px;
+    position: relative;
+
+}
+.list p span {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+.fas {
+    margin: 0px 5px;
+    font-size: 15px;
+}
+.list p input {
+    background-color: transparent;
+    border: 0;
+    font-size: 19px;
+    color: white;
+
+}
+.list p input:focus{
+    outline: none;
+
+}
